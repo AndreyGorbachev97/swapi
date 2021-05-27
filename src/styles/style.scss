@@ -1,0 +1,29 @@
+@import "./app.scss";
+@import "./people.scss";
+@import "./fonts.scss";
+@import "./detail.scss";
+@import "./header.scss";
+@import "./history.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-weight: 100;
+  color: #616161;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(0, 136, 136, .5);
+  height: 50px;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none !important;
+}
